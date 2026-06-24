@@ -97,6 +97,8 @@ graph LR
 
 ---
 
+> ⚠️ **Performance Note:** The processing times shown in screenshots (232.8s, 199.4s per agent) are measured on local CPU. When deployed on **AMD Instinct MI300X**, the entire workflow completes in **<10 seconds** — a **90× speedup** enabled by 192GB HBM3 keeping all models in-memory.
+
 ##  Installation & Local Testing
 
 ### Prerequisites
@@ -109,7 +111,7 @@ For local testing (CPU/smaller GPU), the system runs in **prototype mode** with 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/onco-graph-researcher.git
+git clone https://github.com/ismayagisele-source/onco-graph-researcher.git
 cd onco-graph-researcher
 
 # 2. Install dependencies
