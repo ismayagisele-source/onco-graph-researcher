@@ -75,6 +75,26 @@ graph LR
 
 **Key Insight:** What once required 15 minutes of manual literature search and clinician synthesis is now completed in under 10 seconds — with higher consistency and lower cost.
 
+## 🖼️ Screenshots
+
+### 1. Main Interface
+![Hero Section](screenshots/01_hero_section.png)
+
+### 2. Genomic Overview
+![Genomic Overview](screenshots/02_genomic_overview.png)
+
+### 3. Patient Data Input
+![Patient Data Input](screenshots/03_patient_data_input.png)
+
+### 4. Agent 1: Genomic Analyst (232.8s processing time)
+![Agent 1](screenshots/04_agent1_genomic_analyst.png)
+
+### 5. Agent 2 & 3: Clinical Pharmacologist + Lead Oncologist
+![Agent 2 & 3](screenshots/05_agent2_agent3.png)
+
+### 6. Final Treatment Recommendation
+![Final Recommendation](screenshots/06_final_recommendation.png)
+
 ---
 
 ##  Installation & Local Testing
