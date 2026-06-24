@@ -1,0 +1,75 @@
+{
+  "patient_id": "P003",
+  "clinical": {
+    "age": 67,
+    "gender": "Male",
+    "diagnosis": "Adenocarcinoma of the Colon (Descending Colon)",
+    "stage": "IIB (T4a N0 M0)",
+    "ecog": 1,
+    "tumor_grade": 2,
+    "msi_status": "MSS (Microsatellite Stable)",
+    "braf_v600e": "Wildtype",
+    "lymphovascular_invasion": "Present",
+    "perineural_invasion": "Absent",
+    "margin_status": "Negative (R0 resection)",
+    "family_history": "Father had colorectal cancer at age 72",
+    "previous_treatment": "Surgical resection (left hemicolectomy) completed 4 weeks ago",
+    "adjuvant_therapy": "Considering adjuvant chemotherapy (CAPOX or FOLFOX)",
+    "weight": "78 kg",
+    "height": "175 cm",
+    "allergies": "Penicillin (rash)",
+    "comorbidities": "Type 2 Diabetes (controlled with Metformin 1000mg BID), Hypertension (controlled with Lisinopril 10mg QD)",
+    "current_medications": "Metformin 1000mg BID, Lisinopril 10mg QD, Aspirin 81mg QD"
+  },
+  "genomic": {
+    "KRAS": {
+      "status": "Mutated",
+      "mutation_type": "Missense mutation (c.35G>T, p.Gly12Val) - KRAS G12V",
+      "vaf": 45,
+      "significance": "Pathogenic - predicts resistance to EGFR inhibitors (cetuximab, panitumumab)"
+    },
+    "NRAS": {
+      "status": "Wildtype",
+      "mutation_type": "N/A",
+      "vaf": null,
+      "significance": "Not detected"
+    },
+    "BRAF": {
+      "status": "Wildtype",
+      "mutation_type": "N/A (BRAF V600E not detected)",
+      "vaf": null,
+      "significance": "Wildtype - favorable prognostic marker"
+    },
+    "APC": {
+      "status": "Mutated",
+      "mutation_type": "Nonsense mutation (c.3927C>G, p.Tyr1309*)",
+      "vaf": 52,
+      "significance": "Pathogenic - truncating mutation in WNT signaling pathway"
+    },
+    "TP53": {
+      "status": "Mutated",
+      "mutation_type": "Missense mutation (c.817C>T, p.Arg273Cys)",
+      "vaf": 38,
+      "significance": "Pathogenic - gain-of-function mutation"
+    },
+    "PIK3CA": {
+      "status": "Wildtype",
+      "mutation_type": "N/A",
+      "vaf": null,
+      "significance": "Not detected"
+    },
+    "SMAD4": {
+      "status": "Wildtype",
+      "mutation_type": "N/A",
+      "vaf": null,
+      "significance": "Not detected"
+    }
+  },
+  "expected_recommendations": [
+    "Adjuvant chemotherapy (CAPOX or FOLFOX) - recommended for Stage IIB with high-risk features",
+    "EGFR inhibitors (cetuximab, panitumumab) CONTRAINDICATED - KRAS G12V mutation",
+    "Immunotherapy (pembrolizumab) NOT indicated - MSS status (not MSI-H)",
+    "Bevacizumab can be considered - anti-VEGF therapy",
+    "Regular surveillance colonoscopy - every 1-2 years"
+  ]
+}
