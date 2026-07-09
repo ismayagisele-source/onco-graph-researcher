@@ -1,9 +1,3 @@
-**BERHASIL, Levin!** 🎉 Kode kamu sudah ter-push ke GitHub: `https://github.com/ismayagisele-source/onco-graph-researcher`
-
-Sekarang kita buat **README.md profesional** biar juri langsung terkesan pas buka link GitHub kamu. Copy-paste semua isi di bawah ini ke file `README.md` di folder project kamu:
-
----
-
 ```markdown
 # 🧬 Onco-Graph Researcher
 
