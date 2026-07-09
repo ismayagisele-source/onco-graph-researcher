@@ -148,23 +148,28 @@ onco-graph-researcher/
 🎬 Demo Video
 Watch the full system demo:
 🔗 [Video Link] (update after submission)
+
 📄 Documentation
 Full technical report (PDF) available in repository:
 📑 [Technical Report PDF]
+
 🏆 Hackathon Submission
 AMD Developer Hackathon ACT II 2026 on lablab.ai
 Category: AI for Healthcare / Precision Medicine
 Track: Unicorn Track
 Description: Production-grade multi-agent AI for precision oncology using AMD MI300X GPU and Fireworks AI API.
+
 👥 Team
 Levin — Lead Developer & AI Architect
+
 📜 License
 MIT License — see LICENSE file.
+
 ⚠️ Disclaimer
 Onco-Graph Researcher is a research prototype for hackathon demonstration. NOT intended for clinical use. All outputs should be reviewed by qualified oncology professionals.
+
 <div align="center">
 
 Built with ❤️ for precision oncology
 Powered by AMD Instinct MI300X • Gemma 4 • GLM 5.2 • Fireworks AI
 </div>
-
