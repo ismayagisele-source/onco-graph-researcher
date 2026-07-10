@@ -234,21 +234,25 @@ Buka `http://localhost:8501`
 
 ## 📁 Project Structure
 
-```
-onco-graph-researcher/
-├── app.py                          # Main Streamlit application
-├── agents/
-│   ├── gemma4_pathologist.py       # Agent 0: Multimodal Pathologist
-│   ├── genomic_analyst.py          # Agent 1: Genomic Analyst
-│   ├── clinical_pharmacologist.py  # Agent 2: Clinical Pharmacologist
-│   └── moderator.py                # Agent 3: Lead Oncologist
-├── requirements.txt                # Python dependencies
-├── .env.example                    # Environment template
-├── Dockerfile                      # Container config
-└── README.md                       # This file
-```
+**Main Files:**
+- `app.py` - Main Streamlit application
+- `main.py` - Command-line interface
+- `requirements.txt` - Python dependencies
+- `Dockerfile` - Docker container configuration
+- `docker-compose.yml` - Docker orchestration
+- `.env.example` - Environment variables template
 
----
+**Agents (4 AI Agents):**
+- `agents/gemma4_pathologist.py` - Agent 0: Multimodal Pathologist (AMD MI300X)
+- `agents/genomic_analyst.py` - Agent 1: Genomic Analyst (GLM 5.2)
+- `agents/clinical_pharmacologist.py` - Agent 2: Clinical Pharmacologist (GLM 5.2)
+- `agents/moderator.py` - Agent 3: Lead Oncologist (GLM 5.2)
+
+**Data & Documentation:**
+- `data/notepad/` - Patient templates (P001, P002, P003)
+- `screenshots/` - UI screenshots
+- `README.md` - This file
+- `TECHNICAL.md` - Technical documentation
 
 ## 🎬 Demo & Documentation
 
