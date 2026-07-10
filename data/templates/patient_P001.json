@@ -1,0 +1,55 @@
+{
+  "patient_id": "P001",
+  "clinical": {
+    "age": 68,
+    "gender": "Male",
+    "diagnosis": "Lung Adenocarcinoma",
+    "stage": "IIIA",
+    "ecog": 1,
+    "tumor_grade": 3,
+    "er_status": "N/A",
+    "pr_status": "N/A",
+    "her2_status": "N/A",
+    "ki67_index": "45%",
+    "menopausal_status": "N/A",
+    "family_history": "Father had lung cancer at age 65",
+    "previous_treatment": "None",
+    "surgery": "Not yet performed",
+    "weight": "72 kg",
+    "height": "175 cm",
+    "allergies": "None known",
+    "comorbidities": "Hypertension (controlled)",
+    "current_medications": "Amlodipine 5mg QD"
+  },
+  "genomic": {
+    "EGFR": {
+      "status": "Mutated",
+      "mutation_type": "L858R (c.2573T>G)",
+      "vaf": 52,
+      "significance": "Pathogenic - sensitizing mutation for EGFR TKI"
+    },
+    "TP53": {
+      "status": "Mutated",
+      "mutation_type": "R175H (c.524G>A)",
+      "vaf": 38,
+      "significance": "Pathogenic - loss of tumor suppressor"
+    },
+    "KRAS": {
+      "status": "Wildtype",
+      "mutation_type": "N/A",
+      "vaf": null,
+      "significance": "Not detected"
+    },
+    "ALK": {
+      "status": "Wildtype",
+      "mutation_type": "N/A",
+      "vaf": null,
+      "significance": "Not detected"
+    }
+  },
+  "expected_recommendations": [
+    "Osimertinib 80mg daily (first-line for EGFR L858R)",
+    "Consider combination with chemotherapy if high tumor burden",
+    "Regular monitoring for resistance mutations (T790M, C797S)"
+  ]
+}

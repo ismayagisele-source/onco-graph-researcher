@@ -1,32 +1,32 @@
 {
   "patient_id": "P002",
   "clinical": {
-    "age": 52,
+    "age": 62,
     "gender": "Female",
     "diagnosis": "Invasive Ductal Carcinoma (Breast Cancer)",
-    "stage": "IIIA",
+    "stage": "IIA",
     "ecog": 1,
-    "tumor_grade": 3,
-    "er_status": "Positive (85%)",
-    "pr_status": "Positive (60%)",
-    "her2_status": "Positive (3+ by IHC, confirmed by FISH)",
-    "ki67_index": "35%",
+    "tumor_grade": 2,
+    "er_status": "Positive (90%)",
+    "pr_status": "Positive (70%)",
+    "her2_status": "Negative (1+)",
+    "ki67_index": "25%",
     "menopausal_status": "Postmenopausal",
-    "family_history": "Mother had breast cancer at age 58",
-    "previous_treatment": "Neoadjuvant chemotherapy (dose-dense AC-T) completed 2 weeks ago",
-    "surgery": "Planned mastectomy after neoadjuvant therapy",
-    "weight": "65 kg",
-    "height": "162 cm",
-    "allergies": "None known",
-    "comorbidities": "Hypertension (controlled with Amlodipine 5mg QD)",
-    "current_medications": "Amlodipine 5mg QD, Ondansetron PRN"
+    "family_history": "No significant family history",
+    "previous_treatment": "Lumpectomy + Sentinel Lymph Node Biopsy (3 weeks ago)",
+    "surgery": "Adjuvant radiation therapy planned",
+    "weight": "68 kg",
+    "height": "165 cm",
+    "allergies": "Sulfa drugs (rash)",
+    "comorbidities": "Osteoporosis (controlled with Calcium/Vitamin D), Hypertension (controlled with Amlodipine 5mg QD)",
+    "current_medications": "Amlodipine 5mg QD, Calcium 500mg + Vitamin D 400IU BID"
   },
   "genomic": {
     "BRCA1": {
-      "status": "Mutated",
-      "mutation_type": "Pathogenic germline mutation (c.5266dupC, p.Gln1756Profs*74)",
-      "vaf": 48,
-      "significance": "Pathogenic - associated with hereditary breast-ovarian cancer syndrome"
+      "status": "Wildtype",
+      "mutation_type": "N/A",
+      "vaf": null,
+      "significance": "Not detected"
     },
     "BRCA2": {
       "status": "Wildtype",
@@ -37,13 +37,13 @@
     "PIK3CA": {
       "status": "Mutated",
       "mutation_type": "Missense mutation (c.3140A>G, p.His1047Arg)",
-      "vaf": 32,
+      "vaf": 35,
       "significance": "Pathogenic - activates PI3K/AKT/mTOR pathway"
     },
     "TP53": {
       "status": "Mutated",
       "mutation_type": "Missense mutation (c.743G>A, p.Arg248Gln)",
-      "vaf": 41,
+      "vaf": 42,
       "significance": "Pathogenic - loss of tumor suppressor function"
     },
     "PTEN": {
@@ -60,10 +60,9 @@
     }
   },
   "expected_recommendations": [
-    "PARP inhibitors (Olaparib, Talazoparib) - indicated for BRCA1 mutation",
-    "HER2-targeted therapy (Trastuzumab + Pertuzumab)",
-    "T-DM1 if residual disease after neoadjuvant therapy",
-    "Alpelisib + Fulvestrant - option for PIK3CA mutation",
-    "Endocrine therapy (Aromatase inhibitor) - ER/PR positive"
+    "Adjuvant Endocrine Therapy (Letrozole 2.5mg daily)",
+    "Adjuvant radiation therapy post-lumpectomy",
+    "Bone-modifying agent (Zoledronic acid or Denosumab) due to osteoporosis + AI therapy",
+    "Consider Alpelisib + Fulvestrant only if disease progresses to advanced/metastatic stage"
   ]
 }
