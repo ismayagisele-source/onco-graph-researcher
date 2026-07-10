@@ -1,0 +1,39 @@
+===== CLINICAL INFORMATION =====
+Patient ID: P002
+Age: 62
+Gender: Female
+Weight: 68 kg
+Height: 165 cm
+Cancer Type: Invasive Ductal Carcinoma (Breast Cancer) (Stage IIA)
+Stage: IIA
+Performance Status: ECOG 1
+Tumor Grade: 2
+ER Status: Positive (90%)
+PR Status: Positive (70%)
+HER2 Status: Negative (1+)
+Ki67 Index: 25%
+Menopausal Status: Postmenopausal
+Family History: No significant family history
+Previous Treatment: Lumpectomy + Sentinel Lymph Node Biopsy (3 weeks ago)
+Surgery: Completed
+Adjuvant Therapy: Radiation therapy planned
+Kidney Function: Normal
+Liver Function: Normal
+Allergies: Sulfa drugs (rash)
+Comorbidities:
+- Osteoporosis (controlled with Calcium/Vitamin D)
+- Hypertension (controlled with Amlodipine 5mg QD)
+Current Medications:
+- Amlodipine 5mg QD
+- Calcium 500mg + Vitamin D 400IU BID
+
+===== GENOMIC DATA =====
+Patient ID: P002
+Cancer Type: Breast Cancer (ER+/HER2-)
+Genomic Findings:
+- BRCA1: wildtype (no mutation)
+- BRCA2: wildtype (no mutation)
+- PIK3CA: H1047R mutation detected (exon 20) - Pathogenic, activates PI3K/AKT/mTOR pathway
+- TP53: R248Q mutation detected (exon 7) - Pathogenic, loss of tumor suppressor function
+- PTEN: wildtype (no mutation)
+- CDH1: wildtype (no mutation)

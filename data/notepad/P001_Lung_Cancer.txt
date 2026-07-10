@@ -1,0 +1,36 @@
+===== CLINICAL INFORMATION =====
+Patient ID: P001
+Age: 68
+Gender: Male
+Weight: 72 kg
+Height: 175 cm
+Cancer Type: Lung Adenocarcinoma (Stage IIIA)
+Stage: IIIA
+Performance Status: ECOG 1
+Tumor Grade: 3
+ER Status: N/A
+PR Status: N/A
+HER2 Status: N/A
+Ki67 Index: 45%
+Menopausal Status: N/A
+Family History: Father had lung cancer at age 65
+Previous Treatment: None
+Surgery: Not yet performed
+Kidney Function: Normal (Creatinine 1.0 mg/dL)
+Liver Function: Normal (ALT 25 U/L, AST 22 U/L)
+Allergies: None known
+Comorbidities:
+- Hypertension (controlled)
+Current Medications:
+- Amlodipine 5mg QD
+
+===== GENOMIC DATA =====
+Patient ID: P001
+Cancer Type: Lung Adenocarcinoma
+Genomic Findings:
+- EGFR: L858R mutation detected (exon 21) - Pathogenic, sensitizing mutation for EGFR TKI
+- TP53: R175H mutation detected (exon 5) - Pathogenic, loss of tumor suppressor
+- KRAS: wild type (no mutation)
+- ALK: negative
+- BRAF V600E: negative
+- ROS1: negative

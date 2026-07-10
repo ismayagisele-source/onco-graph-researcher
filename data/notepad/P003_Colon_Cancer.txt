@@ -1,0 +1,41 @@
+===== CLINICAL INFORMATION =====
+Patient ID: P003
+Age: 67
+Gender: Male
+Weight: 78 kg
+Height: 175 cm
+Cancer Type: Adenocarcinoma of the Colon (Descending Colon) (Stage IIB)
+Stage: IIB (T4a N0 M0)
+Performance Status: ECOG 1
+Tumor Grade: 2
+MSI Status: MSS (Microsatellite Stable)
+BRAF V600E: Wildtype
+Lymphovascular Invasion: Present
+Perineural Invasion: Absent
+Margin Status: Negative (R0 resection)
+Family History: Father had colorectal cancer at age 72
+Previous Treatment: Surgical resection (left hemicolectomy) completed 4 weeks ago
+Surgery: Completed
+Adjuvant Therapy: Considering adjuvant chemotherapy (CAPOX or FOLFOX)
+Kidney Function: Normal
+Liver Function: Normal
+Allergies: Penicillin (rash)
+Comorbidities:
+- Type 2 Diabetes (controlled with Metformin 1000mg BID)
+- Hypertension (controlled with Lisinopril 10mg QD)
+Current Medications:
+- Metformin 1000mg BID
+- Lisinopril 10mg QD
+- Aspirin 81mg QD
+
+===== GENOMIC DATA =====
+Patient ID: P003
+Cancer Type: Colon Adenocarcinoma
+Genomic Findings:
+- KRAS: G12V mutation detected (exon 2) - Pathogenic, predicts resistance to EGFR inhibitors
+- NRAS: wildtype (no mutation)
+- BRAF: V600E wildtype (not detected) - Favorable prognostic marker
+- APC: Y1309* nonsense mutation - Pathogenic, truncating mutation in WNT pathway
+- TP53: R273C mutation detected (exon 8) - Pathogenic, gain-of-function mutation
+- PIK3CA: wildtype (no mutation)
+- SMAD4: wildtype (no mutation)
