@@ -9,7 +9,7 @@ from PIL import Image
 import io
 
 class Gemma4Pathologist:
-    def __init__(self, api_url="http://165.245.131.224:8000/v1/chat/completions"):
+    def __init__(self, api_url="http://129.212.177.85:8000/v1/chat/completions"):
         self.api_url = api_url
         self.model = "google/gemma-4-31b-it"
     
