@@ -1,5 +1,5 @@
-# Base image: Python 3.14
-FROM python:3.14-slim
+# Base image: Python 3.12
+FROM python:3.12-slim
 
 # Set working directory
 WORKDIR /app
@@ -12,11 +12,8 @@ ENV PIP_NO_CACHE_DIR=1
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     curl \
-    zstd \
+    git \
     && rm -rf /var/lib/apt/lists/*
-
-# Install Ollama
-RUN curl -fsSL https://ollama.com/install.sh | sh
 
 # Copy requirements first (for better caching)
 COPY requirements.txt .
@@ -27,17 +24,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application
 COPY . .
 
-# Create directory for Ollama models
-RUN mkdir -p /root/.ollama
-
-# Expose ports
-# 8501 for Streamlit
-# 11434 for Ollama
-EXPOSE 8501 11434
+# Expose port for Streamlit
+EXPOSE 8501
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=3s \
     CMD curl -f http://localhost:8501/_stcore/health || exit 1
 
-# Run Ollama server and Streamlit
-CMD ["sh", "-c", "ollama serve & sleep 5 && ollama pull llama3 && streamlit run app.py --server.address=0.0.0.0 --server.port=8501"]
+# Run Streamlit
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
