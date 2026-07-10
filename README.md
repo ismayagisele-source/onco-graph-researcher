@@ -77,23 +77,25 @@ Clinical Data → [Agent 2: GLM 5.2 Fast via Fireworks AI] → Pharmacology Eval
 
 ---
 
-## 🟢 Why AMD Instinct MI300X?
+## Why AMD Instinct MI300X?
 
-The AMD MI300X with **192GB HBM3** is the only hardware that can run Gemma 4 31B at full precision for medical imaging.
+The AMD MI300X with **192GB HBM3** provides exceptional memory capacity for running large language models at full precision in medical imaging applications.
+
+### Technical Specifications:
 
 | Metric | Value |
 |--------|-------|
-| **HBM3 Memory** | 192GB (2.4x more than NVIDIA H100) |
-| **Agent Stack Footprint** | ~65GB — all models in-memory |
-| **Precision** | Native BF16, no quantization needed |
-| **Optimization** | PagedAttention, no sharding |
+| **HBM3 Memory** | 192GB (Industry-leading capacity) |
+| **Agent Stack Footprint** | ~65GB — all models resident in-memory |
+| **Precision** | Native BF16 support, no quantization needed |
+| **Optimization** | PagedAttention with ROCm 7.2, zero sharding overhead |
 
-**Technical Advantages:**
-- ✅ **Simultaneous residency** of the full agent stack — no swapping, no latency
-- ✅ **Native BF16 support** enables drop-in deployment without quantization
-- ✅ **PagedAttention optimization** eliminates performance-draining sharding
-- ✅ **100% on-premises** — patient PHI never leaves the local environment (HIPAA-compliant)
-- ✅ **ROCm + vLLM stack** for production-grade serving
+### Technical Advantages:
+
+- **Massive Memory Capacity:** 192GB HBM3 enables full-model residency
+- **Native BF16 Support:** Optimal precision for clinical AI
+- **ROCm 7.2 Stack:** Optimized for multi-agent inference
+- **Zero Sharding:** Eliminates performance overhead
 
 ---
 
