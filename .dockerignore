@@ -1,37 +1,10 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-.venv/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Git
-.git/
-.gitignore
-
-# Documentation
-*.md
-docs/
-
-# Data (optional - uncomment jika tidak mau include data di Docker)
-# data/
-# *.csv
-# *.json
-
-# Environment
+.git
+.venv
+venv
+env
+__pycache__
+*.pyc
 .env
-.env.local
+.DS_Store
+screenshots
+data/notepad

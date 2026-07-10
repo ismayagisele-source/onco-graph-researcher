@@ -205,6 +205,31 @@ streamlit run app.py
 
 Open your browser at `http://localhost:8501`
 
+
+```markdown
+## 🐳 Run with Docker (Recommended)
+
+1. **Clone & Setup:**
+```bash
+git clone https://github.com/ismayagisele-source/onco-graph-researcher.git
+cd onco-graph-researcher
+```
+
+2. **Set API Key:**
+Buat file `.env` dan isi dengan Fireworks API Key kamu:
+```bash
+FIREWORKS_API_KEY=your_api_key_here
+```
+
+3. **Run:**
+```bash
+docker-compose up --build
+```
+
+4. **Open Browser:**
+Buka `http://localhost:8501`
+```
+
 ---
 
 ## 📁 Project Structure
