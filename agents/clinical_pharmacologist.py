@@ -25,7 +25,7 @@ CRITICAL INSTRUCTIONS:
 4. You MUST NOT output any thinking process or internal reasoning
 5. You MUST start your response IMMEDIATELY with "CLINICAL PHARMACOLOGY EVALUATION REPORT"
 6. You MUST provide the report in ENGLISH only
-7. Your response MUST be at least 1000 words - be thorough and detailed
+7. Your response MUST be at least 500 words - be thorough and detailed
 
 CRITICAL FORMATTING RULE:
 DO NOT stop after the Patient Summary. You MUST continue and write out ALL 6 sections below in full detail. Do not summarize. Be thorough.
