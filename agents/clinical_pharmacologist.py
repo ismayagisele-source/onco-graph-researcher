@@ -80,7 +80,7 @@ CRITICAL RULES:
 - Start your response with "CLINICAL PHARMACOLOGY EVALUATION REPORT"
 - Follow the 6-section format exactly
 - DO NOT stop after the patient summary. You MUST write out all 6 sections
-- Response must be at least 1000 words
+- Response must be at least 500 words
 - Do NOT include any thinking process
 - Provide the report in ENGLISH only
 - Be thorough, detailed, and professional
