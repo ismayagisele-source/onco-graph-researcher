@@ -1,3 +1,5 @@
+***
+
 # Onco-Graph Researcher
 
 ### Multi-Agent AI System for Precision Oncology
@@ -48,7 +50,7 @@ Onco-Graph Researcher simulates a multidisciplinary tumor board — **four speci
 
 Every layer of the architecture is engineered for zero-latency, verifiable reasoning in a clinical setting.
 
-```
+```text
 Pathology Image → [Agent 0: Gemma 4 31B on AMD MI300X] → Pathology Report
                                                               ↓
 Genomic Data → [Agent 1: GLM 5.2 Fast via Fireworks AI] → Genomic Analysis
@@ -99,7 +101,7 @@ The AMD MI300X with **192GB HBM3** provides exceptional memory capacity for runn
 
 ---
 
-## 📊 Impact & Validation
+##  Impact & Validation
 
 What once required **15 minutes** of manual synthesis is now completed in **under 90 seconds**.
 
@@ -205,8 +207,8 @@ streamlit run app.py
 
 Open your browser at `http://localhost:8501`
 
+---
 
-```markdown
 ## 🐳 Run with Docker (Recommended)
 
 1. **Clone & Setup:**
@@ -216,7 +218,7 @@ cd onco-graph-researcher
 ```
 
 2. **Set API Key:**
-Buat file `.env` dan isi dengan Fireworks API Key kamu:
+Create `.env` file and add your Fireworks API Key:
 ```bash
 FIREWORKS_API_KEY=your_api_key_here
 ```
@@ -227,8 +229,7 @@ docker-compose up --build
 ```
 
 4. **Open Browser:**
-Buka `http://localhost:8501`
-```
+Open `http://localhost:8501`
 
 ---
 
@@ -254,7 +255,9 @@ Buka `http://localhost:8501`
 - `README.md` - This file
 - `TECHNICAL.md` - Technical documentation
 
-## 🎬 Demo & Documentation
+---
+
+##  Demo & Documentation
 
 - 📑 **[Technical Presentation (PDF)](https://github.com/ismayagisele-source/onco-graph-researcher/blob/main/Onco-Graph%20Researcher%20-%20Presentation.pdf)** — 10-slide technical presentation with architecture, impact metrics, and roadmap
 - 🎥 **Demo Video** — [Coming Soon]
@@ -284,7 +287,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-## ⚠️ Disclaimer
+## ️ Disclaimer
 
 **Onco-Graph Researcher is a research prototype** developed for hackathon demonstration purposes. It is **NOT** intended for clinical use, medical diagnosis, or treatment decisions. All outputs should be reviewed by qualified oncology professionals. The system does not replace the judgment of licensed medical practitioners.
 
@@ -293,3 +296,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 **Built with ❤️ for precision oncology**
 
 *Powered by AMD Instinct MI300X • Gemma 4 • GLM 5.2 • Fireworks AI*
+
+***
